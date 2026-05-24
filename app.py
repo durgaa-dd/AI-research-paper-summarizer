@@ -5,7 +5,9 @@ import requests
 # -----------------------------------
 # OpenRouter API Key
 # -----------------------------------
-API_KEY = "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"
+import os
+
+api_key = os.getenv("OPENROUTER_API_KEY")
 
 # -----------------------------------
 # Streamlit UI
